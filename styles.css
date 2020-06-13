@@ -45,11 +45,13 @@ header{
 
 main .container{
     display: grid;
-    grid-template-columns: 80px 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 80px 1fr;
 }
 
 main .container .lateral-icons img{
     width: 40px;
+    display: flex;
     /* display: flex;
     justify-content: center; */
 }
