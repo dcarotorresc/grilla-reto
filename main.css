@@ -21,11 +21,11 @@ body{
     grid-gap: 0px;
 }
 
-.container div {
-    /* max-width: 100%; */
-    padding: 5px;
-    color: white;
-}
+    .container div {
+        /* max-width: 100%; */
+        padding: 5px;
+        color: white;
+    }
 
 .container .header{
     background-color:white;
@@ -70,13 +70,15 @@ body{
     .container .header .header-user img{
         height: 45px;
         width: auto;
+        margin-right: 25px;
     }
 
 .container .lateral{
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-row: 2 / -1;
-    background-color:#c04548;
+    background: rgb(255,166,163);
+    background: linear-gradient(0deg, rgba(255,166,163,1) 46%, rgba(231,75,81,1) 73%);  
 }
 
     .container .lateral img{
@@ -98,19 +100,15 @@ body{
     background-color: #EDEEF0;
 }
 
-.container .section1 div{
-    display: flex;
-    justify-content: center;
-}
+    .container .section1 div{
+        display: flex;
+        justify-content: center;
+    }
 
-.container .section1 img{
-    width: 230px;
-    height: auto;
-}
-
-.container .section1 p{
-    color: black;
-}
+    .container .section1 img{
+        width: 230px;
+        height: auto;
+    }
 
 .container .section2{
     max-width: 1000px;
@@ -118,24 +116,34 @@ body{
     grid-column: 2 / -1;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-template-rows: 20px 1fr; */  
 }
 
-.container .section2 img{
-    width: 230px;
-    height: auto;
-}
+    .container .section2 div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container .section2 img{
+        width: 230px;
+        height: auto;
+    }
 
 .container .section3{
     max-width: 1000px;
-    background-color: #EDEEF0;
     grid-column: 2 / -1;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-template-rows: 20px 1fr;  */ 
+    background-color: #EDEEF0;
 }
 
-.container .section3 img{
-    width: 230px;
-    height: auto;
-}
+    .container .section3 div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container .section3 img{
+        width: 230px;
+        height: auto;
+    }
