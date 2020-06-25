@@ -110,6 +110,10 @@ body{
         height: auto;
     }
 
+    .container .section1 p{
+        color: black;
+    }
+
 .container .section2{
     max-width: 1000px;
     background-color: #EDEEF0;
